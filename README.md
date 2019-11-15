@@ -16,6 +16,5 @@ Get Arrival Time of the Bus Id via Bus Stop in Penang, Malaysia.
 ## References
 https://docs.microsoft.com/en-us/rest/api/maps/mobility
 
-## Project Video URL(Coming Soon)
 
 
