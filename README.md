@@ -3,16 +3,15 @@
 Get Arrival Time of the Bus Id via Bus Stop in Penang, Malaysia.
 
 ## Steps
-1. Get Transit Route
-2. Get Transit Itinerary
-3. Get Real Time Arrivals
+1. Get Metro Area (eg.5390 - Penang,Malaysia) 
+2. Get Transit Route (eg.206 - Jeti ⇌ TESCO Tunku Kudin), get the itineraryId(always change)
+3. Get Transit Itinerary,get each Bus stopId
+4. Get Real Time Arrivals
 
 ## ScreenShot
-1. Get Itinerary of Bus (for eg: 206, normally I take Bus 206 to Home)
-![Image of Bus Itinerary](https://github.com/cheahengsoon/AzureMapsBotBuilder/blob/master/ItineraryBus.png)
-
-2. Get Arrival Time of the Bus based on Bus Stop Id
-![Image of Bus Arrival Time](https://github.com/cheahengsoon/AzureMapsBotBuilder/blob/master/ArrivalTime.png)
+1. Enter Bus Id (eg.206)
+2. Select your Bus stop to get Bus Arrival Time
+![Image of Yaktocat](https://github.com/cheahengsoon/AzureMapsBotBuilder/blob/master/S2.png)
 
 ## References
 https://docs.microsoft.com/en-us/rest/api/maps/mobility
