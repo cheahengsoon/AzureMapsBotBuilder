@@ -1,0 +1,640 @@
+{
+    "departureTime": "2019-11-15T02:56:43Z",
+    "arrivalTime": "2019-11-15T03:35:48Z",
+    "legs": [
+        {
+            "legType": "Walk",
+            "legStartTime": "2019-11-15T02:56:43Z",
+            "legEndTime": "2019-11-15T02:59:30Z",
+            "steps": [
+                {
+                    "direction": {
+                        "relativeDirection": "depart"
+                    },
+                    "streetName": "Pengkalan Weld"
+                },
+                {
+                    "direction": {
+                        "relativeDirection": "left"
+                    },
+                    "streetName": "Gat Lebuh Chulia"
+                }
+            ],
+            "origin": {
+                "position": {
+                    "latitude": 5.4129,
+                    "longitude": 100.3395
+                }
+            },
+            "destination": {
+                "position": {
+                    "latitude": 5.413984,
+                    "longitude": 100.340576
+                }
+            }
+        },
+        {
+            "legType": "Wait",
+            "legStartTime": "2019-11-15T02:59:30Z",
+            "legEndTime": "2019-11-15T03:00:31Z",
+            "lineGroup": {
+                "lineGroupId": "5390---697539",
+                "agencyId": "5390---1122251",
+                "agencyName": "Rapid Penang",
+                "lineNumber": "206",
+                "caption1": "Jeti ⇌ TESCO Tunku Kudin",
+                "caption2": "206 Jeti ⇌ TESCO Tunku Kudin",
+                "color": "FF0000",
+                "transitType": "Bus"
+            },
+            "line": {
+                "lineId": "5390---2952560",
+                "lineGroupId": "5390---697539",
+                "direction": "forward",
+                "agencyId": "5390---1122251",
+                "lineNumber": "206",
+                "lineDestination": "Jeti - Tesco"
+            },
+            "stops": [
+                {
+                    "stopId": "5390---35137807",
+                    "stopKey": "3401094",
+                    "stopName": "Container Hotel",
+                    "stopCode": "12000007",
+                    "position": {
+                        "latitude": 5.413936,
+                        "longitude": 100.340509
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138234",
+                    "stopKey": "4834392",
+                    "stopName": "Pasaraya Tesco",
+                    "stopCode": "12001887",
+                    "position": {
+                        "latitude": 5.377229,
+                        "longitude": 100.315074
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                }
+            ],
+            "waitOnVehicle": false
+        },
+        {
+            "legType": "Bus",
+            "legStartTime": "2019-11-15T03:00:31Z",
+            "legEndTime": "2019-11-15T03:35:48Z",
+            "lineGroup": {
+                "lineGroupId": "5390---697539",
+                "agencyId": "5390---1122251",
+                "agencyName": "Rapid Penang",
+                "lineNumber": "206",
+                "caption1": "Jeti ⇌ TESCO Tunku Kudin",
+                "caption2": "206 Jeti ⇌ TESCO Tunku Kudin",
+                "color": "FF0000",
+                "transitType": "Bus"
+            },
+            "line": {
+                "lineId": "5390---2952560",
+                "lineGroupId": "5390---697539",
+                "direction": "forward",
+                "agencyId": "5390---1122251",
+                "lineNumber": "206",
+                "lineDestination": "Jeti - Tesco"
+            },
+            "stops": [
+                {
+                    "stopId": "5390---35137807",
+                    "stopKey": "3401094",
+                    "stopName": "Container Hotel",
+                    "stopCode": "12000007",
+                    "position": {
+                        "latitude": 5.413936,
+                        "longitude": 100.340509
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137809",
+                    "stopKey": "3401096",
+                    "stopName": "Restoran Kapitan",
+                    "stopCode": "12001916",
+                    "position": {
+                        "latitude": 5.415965,
+                        "longitude": 100.338986
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138141",
+                    "stopKey": "4831202",
+                    "stopName": "Masjid Kapitan Keling",
+                    "stopCode": "12001918",
+                    "position": {
+                        "latitude": 5.417495,
+                        "longitude": 100.337367
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137810",
+                    "stopKey": "3401097",
+                    "stopName": "Love Lane",
+                    "stopCode": "12001920",
+                    "position": {
+                        "latitude": 5.418423,
+                        "longitude": 100.336071
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137811",
+                    "stopKey": "3401098",
+                    "stopName": "Banana Boutique",
+                    "stopCode": "12001922",
+                    "position": {
+                        "latitude": 5.419474,
+                        "longitude": 100.333629
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137812",
+                    "stopKey": "3401099",
+                    "stopName": "Penang Road",
+                    "stopCode": "12001064",
+                    "position": {
+                        "latitude": 5.419218,
+                        "longitude": 100.332068
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137813",
+                    "stopKey": "3401100",
+                    "stopName": "Pasar Chowrasta",
+                    "stopCode": "12001061",
+                    "position": {
+                        "latitude": 5.418182,
+                        "longitude": 100.331284
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137814",
+                    "stopKey": "3401101",
+                    "stopName": "Terminal Komtar",
+                    "stopCode": "12002116",
+                    "position": {
+                        "latitude": 5.414162,
+                        "longitude": 100.330403
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137815",
+                    "stopKey": "3401102",
+                    "stopName": "Pasaraya Gama",
+                    "stopCode": "12000461",
+                    "position": {
+                        "latitude": 5.413788,
+                        "longitude": 100.328101
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137816",
+                    "stopKey": "3401103",
+                    "stopName": "Penang Times Square",
+                    "stopCode": "12000456",
+                    "position": {
+                        "latitude": 5.41317,
+                        "longitude": 100.326172
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137817",
+                    "stopKey": "3401104",
+                    "stopName": "Pasar Jalan Kuantan",
+                    "stopCode": "12000443",
+                    "position": {
+                        "latitude": 5.412199,
+                        "longitude": 100.323777
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137911",
+                    "stopKey": "4809714",
+                    "stopName": "Ipd Timur Laut",
+                    "stopCode": "12000994",
+                    "position": {
+                        "latitude": 5.411235,
+                        "longitude": 100.322779
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138704",
+                    "stopKey": "9357800",
+                    "stopName": "Apartmen Taman Sri Pinang",
+                    "stopCode": "12000990",
+                    "position": {
+                        "latitude": 5.405832,
+                        "longitude": 100.321497
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37182298",
+                    "stopKey": "15740917",
+                    "stopName": "Jkp",
+                    "stopCode": "12001586",
+                    "position": {
+                        "latitude": 5.4056,
+                        "longitude": 100.320093
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37182299",
+                    "stopKey": "15740918",
+                    "stopName": "Penang Japanese School",
+                    "stopCode": "12001589",
+                    "position": {
+                        "latitude": 5.40859,
+                        "longitude": 100.317308
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37302970",
+                    "stopKey": "15740919",
+                    "stopName": "Rumah P. Ramlee",
+                    "stopCode": "12000938",
+                    "position": {
+                        "latitude": 5.409578,
+                        "longitude": 100.315443
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37302972",
+                    "stopKey": "15841272",
+                    "stopName": "Smk Abdullah Munshi",
+                    "stopCode": "12000937",
+                    "position": {
+                        "latitude": 5.408524,
+                        "longitude": 100.313356
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138707",
+                    "stopKey": "9357803",
+                    "stopName": "Jalan P.Ramlee I",
+                    "stopCode": "12002240",
+                    "position": {
+                        "latitude": 5.40765,
+                        "longitude": 100.312648
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37182300",
+                    "stopKey": "15740920",
+                    "stopName": "Flat Seri Hussain",
+                    "stopCode": "12000936",
+                    "position": {
+                        "latitude": 5.40632,
+                        "longitude": 100.30953
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138709",
+                    "stopKey": "9357805",
+                    "stopName": "Taman Free School",
+                    "stopCode": "12001811",
+                    "position": {
+                        "latitude": 5.404294,
+                        "longitude": 100.308834
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138238",
+                    "stopKey": "4834396",
+                    "stopName": "Smjk Heng Ee",
+                    "stopCode": "12000538",
+                    "position": {
+                        "latitude": 5.400638,
+                        "longitude": 100.308901
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138239",
+                    "stopKey": "4834397",
+                    "stopName": "Taman Hutchings",
+                    "stopCode": "12000537",
+                    "position": {
+                        "latitude": 5.397597,
+                        "longitude": 100.306567
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138019",
+                    "stopKey": "4814435",
+                    "stopName": "Smk Convent Green Lane",
+                    "stopCode": "12000869",
+                    "position": {
+                        "latitude": 5.397182,
+                        "longitude": 100.303774
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37302973",
+                    "stopKey": "15841273",
+                    "stopName": "Jalan Besi I",
+                    "stopCode": "12000286",
+                    "position": {
+                        "latitude": 5.39476,
+                        "longitude": 100.302492
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138711",
+                    "stopKey": "9357807",
+                    "stopName": "Apartmen Green Lane Height",
+                    "stopCode": "12000285",
+                    "position": {
+                        "latitude": 5.394042,
+                        "longitude": 100.299913
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37182301",
+                    "stopKey": "15740921",
+                    "stopName": "Jalan Besi II",
+                    "stopCode": "12002221",
+                    "position": {
+                        "latitude": 5.391875,
+                        "longitude": 100.299683
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138712",
+                    "stopKey": "9357808",
+                    "stopName": "Jalan Tembaga",
+                    "stopCode": "12001798",
+                    "position": {
+                        "latitude": 5.38926,
+                        "longitude": 100.29965
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37302974",
+                    "stopKey": "15841274",
+                    "stopName": "Jalan Tembaga II",
+                    "stopCode": "12002241",
+                    "position": {
+                        "latitude": 5.389613,
+                        "longitude": 100.301973
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138026",
+                    "stopKey": "4814448",
+                    "stopName": "Hadapan Shell",
+                    "stopCode": "12000861",
+                    "position": {
+                        "latitude": 5.386589,
+                        "longitude": 100.304885
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---36705657",
+                    "stopKey": "14063477",
+                    "stopName": "Jalan Delima",
+                    "stopCode": "12000473",
+                    "position": {
+                        "latitude": 5.383682,
+                        "longitude": 100.304597
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138299",
+                    "stopKey": "4838176",
+                    "stopName": "Jalan Delima 2",
+                    "stopCode": "12000472",
+                    "position": {
+                        "latitude": 5.382138,
+                        "longitude": 100.298942
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37302971",
+                    "stopKey": "15841271",
+                    "stopName": "Jalan Delima 3",
+                    "stopCode": "12000471",
+                    "position": {
+                        "latitude": 5.380413,
+                        "longitude": 100.298811
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---36705658",
+                    "stopKey": "14063478",
+                    "stopName": "Jalan Delima 4",
+                    "stopCode": "12000469",
+                    "position": {
+                        "latitude": 5.380082,
+                        "longitude": 100.300836
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138297",
+                    "stopKey": "4838174",
+                    "stopName": "Jalan Delima 5",
+                    "stopCode": "12000470",
+                    "position": {
+                        "latitude": 5.380205,
+                        "longitude": 100.302628
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---36705653",
+                    "stopKey": "4815229",
+                    "stopName": "Sk Bukit Gelugor",
+                    "stopCode": "12000314",
+                    "position": {
+                        "latitude": 5.377446,
+                        "longitude": 100.302431
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137972",
+                    "stopKey": "4813003",
+                    "stopName": "Perumahan Kastam",
+                    "stopCode": "12000810",
+                    "position": {
+                        "latitude": 5.374404,
+                        "longitude": 100.301414
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37182302",
+                    "stopKey": "15740922",
+                    "stopName": "Dewan Jkkk",
+                    "stopCode": "12002242",
+                    "position": {
+                        "latitude": 5.372623,
+                        "longitude": 100.302668
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137935",
+                    "stopKey": "4812937",
+                    "stopName": "Taman Tun Sardon",
+                    "stopCode": "12000019",
+                    "position": {
+                        "latitude": 5.371709,
+                        "longitude": 100.302765
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---37182303",
+                    "stopKey": "15740923",
+                    "stopName": "Astaka Taman Tun Sardon",
+                    "stopCode": "12000024",
+                    "position": {
+                        "latitude": 5.369167,
+                        "longitude": 100.304942
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---36230845",
+                    "stopKey": "12350090",
+                    "stopName": "Anggerik Villa",
+                    "stopCode": "12000023",
+                    "position": {
+                        "latitude": 5.368658,
+                        "longitude": 100.309371
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137890",
+                    "stopKey": "4805790",
+                    "stopName": "Maybank Gelugor",
+                    "stopCode": "12001455",
+                    "position": {
+                        "latitude": 5.369405,
+                        "longitude": 100.310036
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137891",
+                    "stopKey": "4805793",
+                    "stopName": "Ktm Motor",
+                    "stopCode": "12001457",
+                    "position": {
+                        "latitude": 5.372588,
+                        "longitude": 100.309092
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35137892",
+                    "stopKey": "4805797",
+                    "stopName": "Recsam",
+                    "stopCode": "12001459",
+                    "position": {
+                        "latitude": 5.376434,
+                        "longitude": 100.30803
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                },
+                {
+                    "stopId": "5390---35138234",
+                    "stopKey": "4834392",
+                    "stopName": "Pasaraya Tesco",
+                    "stopCode": "12001887",
+                    "position": {
+                        "latitude": 5.377229,
+                        "longitude": 100.315074
+                    },
+                    "mainTransitType": "Bus",
+                    "mainAgencyId": "5390---1122251"
+                }
+            ]
+        }
+    ]
+}
