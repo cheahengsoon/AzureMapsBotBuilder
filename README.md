@@ -3,7 +3,7 @@
 Get Arrival Time of the Bus Id via Bus Stop in Penang, Malaysia.
 
 ## Steps
-1. Get Metro Area (eg.5390 - Penang,Malaysia) 
+1. Get Metro Area (eg.5390 - Penang,Malaysia) via Coordinates
 2. Get Transit Route (eg.206 - Jeti ⇌ TESCO Tunku Kudin), get the itineraryId(always change)
 3. Get Transit Itinerary,get each Bus stopId
 4. Get Real Time Arrivals
