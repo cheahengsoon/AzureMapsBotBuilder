@@ -8,7 +8,7 @@ Get Arrival Time of the Bus Id via Bus Stop
 3. Get Real Time Arrivals
 
 # Bugs
-1. Display the itenary in Carousel (See someone to fixed)
+1. Display the itenary in Carousel and results of Arrival Time in Carousel(See someone to fixed)
 
 # References
 https://docs.microsoft.com/en-us/rest/api/maps/mobility
