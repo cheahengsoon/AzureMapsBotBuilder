@@ -7,9 +7,6 @@ Get Arrival Time of the Bus Id via Bus Stop in Penang, Malaysia.
 2. Get Transit Itinerary
 3. Get Real Time Arrivals
 
-## Bugs
-1. Display the itenary in Carousel and results of Arrival Time in Carousel(See someone to fixed)
-
 ## ScreenShot
 1. Get Itinerary of Bus (for eg: 206, normally I take Bus 206 to Home)
 ![Image of Bus Itinerary](https://github.com/cheahengsoon/AzureMapsBotBuilder/blob/master/ItineraryBus.png)
