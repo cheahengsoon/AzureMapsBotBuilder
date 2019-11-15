@@ -1,5 +1,5 @@
 # Integrate Azure Maps with Bot Builder v4
-Use Case
+Use Case <br/>
 Get Arrival Time of the Bus Id via Bus Stop
 
 # Steps
