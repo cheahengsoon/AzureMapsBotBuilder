@@ -15,17 +15,14 @@ jobs:
     steps:
     # Scans your target website
     - name: OWASP ZAP Full Scan
-      uses: zaproxy/action-full-scan@v0.1.0
-      with:
-        # GitHub Token to create issues in the repository
-        token: ${{ secrets.SECRET_KEY }}
-        # Target URL
-        target: 'https://techconnectweb.azurewebsites.net/'
-        # Relative path of the ZAP configuration file
-        #rules_file_name: # optional
-        # The Docker file to be executed
-        docker_name: 'owasp/zap2docker-stable'
-        # Additional command line options
-        #cmd_options: # optional
-        # The title for the GitHub issue to be created
-        issue_title: 'ZAP Full Scan Report'
+
+  # You may pin to the exact commit or the version.
+  # uses: zaproxy/action-full-scan@0cb1f5c6730ea395a309bd05366b71a8193942e9
+  uses: zaproxy/action-full-scan@v0.1.0
+  with:
+    # Target URL
+    target: 'https://techconnectweb.azurewebsites.net/'
+    # The Docker file to be executed
+    docker_name: 'owasp/zap2docker-stable'
+    # The title for the GitHub issue to be created
+    issue_title: # optional, default is ZAP Full Scan Report
