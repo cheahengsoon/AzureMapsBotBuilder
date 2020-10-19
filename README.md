@@ -16,7 +16,13 @@ Get Arrival Time of the Bus Id via Bus Stop in Penang, Malaysia.
 ## References
 https://docs.microsoft.com/en-us/rest/api/maps/mobility
 
+## Slide
+https://www.slideshare.net/cheahengsoon/azure-weekend-2020-build-malaysia-bus-uncle-chatbot
+
+## GitHub Action
 ![OWASPZAPBaselineScan](https://github.com/cheahengsoon/AzureMapsBotBuilder/workflows/OWASPZAPBaselineScan/badge.svg)
+
+
 References:
 https://zimmergren.net/security-scanning-with-github-actions-and-owasp-zap/
 
